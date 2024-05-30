@@ -7,7 +7,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -31,4 +31,11 @@ a {
 
 img {
   width: 100%;
+}
+address {
+  font-style: normal;
+  unicode-bidi: normal;
+}
+button {
+  cursor: pointer;
 }
