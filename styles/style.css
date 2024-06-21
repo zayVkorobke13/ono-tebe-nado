@@ -144,21 +144,7 @@
   min-height: 563px;
   list-style: none;
 }
-.card-link {
-  position: relative;
-  z-index: 1;
-  display: block;
-  height: 100%;
-  text-decoration: none;
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  padding: 51px 40px 48px;
-}
+
 .card_type_film {
   background: url(../images/card-lot-01.jpg) center no-repeat;
 }
@@ -170,7 +156,20 @@
   background: url(../images/card-lot-03.jpg) center no-repeat;
 }
 .card-link {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  text-decoration: none;
   background-size: cover;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 51px 40px 48px;
 }
 .card__title {
   font-weight: 700;
